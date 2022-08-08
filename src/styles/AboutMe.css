@@ -1,0 +1,37 @@
+body {
+  height: 200%;
+  /* background-image: url("../../public/PortfolioWiremock.jpg"); */
+  /* background-image: url("../../public/PortfolioWiremock.jpg"); */
+  background-color: #f7ede2 #f6bd60;
+  background-repeat: no-repeat repeat;
+  /* background-size: cover; */
+  background-blend-mode: soft-light;
+  /* mix-blend-mode: soft-light; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.aboutMe-container {
+  display: flex;
+  padding: 150px;
+  column-gap: 25px;
+}
+
+.right-container {
+  flex-direction: column;
+  justify-content: center;
+  text-overflow: inherit;
+}
+
+.left-container {
+  /* padding: 20px; */
+  width: 400px;
+  height: 300px;
+  display: flex;
+}
+
+img {
+  border-radius: 60px 100px 50px 20px;
+}
