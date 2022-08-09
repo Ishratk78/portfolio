@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Navigation from "../components/Navigation";
 import "../styles/AboutMe.css";
 
@@ -7,7 +8,7 @@ const AboutMe = () => {
       <Navigation />
       <div className="aboutMe-container">
         <div className="left-container">
-          <img src="Image1.png" />
+          <img src="Image1.png" alt=" " />
         </div>
         <div className="right-container">
           <p>Hello!!</p>
