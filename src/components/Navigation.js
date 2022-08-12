@@ -9,7 +9,7 @@ const Navigation = () => {
         About Me
       </Link>
       <Link underline="hover" color="inherit" href="/portfolio">
-        Portfolio
+        Projects
       </Link>
       <Link underline="hover" color="inherit" href="/resume">
         Resume
