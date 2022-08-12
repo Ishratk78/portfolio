@@ -1,7 +1,7 @@
 import Navigation from "../components/Navigation";
-import "../styles/AboutMe.css";
+import "../styles/Portfolio.css";
 
-const AboutMe = () => {
+const Portfolio = () => {
   return (
     <>
       <Navigation />
@@ -26,4 +26,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Portfolio;
