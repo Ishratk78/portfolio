@@ -9,7 +9,7 @@ const AboutMe = () => {
       <Navigation />
       <div className="aboutMe-container">
         <div className="left-container">
-          <img src={Image} class="image"/>
+          <img src={Image} />
         </div>
         <div className="right-container">
           <p>Hello!!</p>

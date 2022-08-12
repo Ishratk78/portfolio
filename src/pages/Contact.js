@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import Navigation from "../components/Navigation";
 import "../styles/AboutMe.css";
 import Image from "../images/Image1.png"
@@ -9,7 +8,7 @@ const AboutMe = () => {
       <Navigation />
       <div className="aboutMe-container">
         <div className="left-container">
-          <img src={Image} class="image"/>
+          <img src={Image} />
         </div>
         <div className="right-container">
           <p>Hello!!</p>
